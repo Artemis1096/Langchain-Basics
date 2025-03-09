@@ -1,3 +1,4 @@
+#Basic Chat Model and Types of Messages used in LangChain
 import os
 from constant import mistral_key  # Ensure this file exists with your API key
 from langchain_mistralai import ChatMistralAI
