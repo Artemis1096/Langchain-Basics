@@ -12,7 +12,7 @@ model = ChatMistralAI(model="open-mistral-7b")
 chat_history = [] #using a list to store messages
 
 # Set an initial system message
-system_message = SystemMessage(content="You are a helpful AI assistant.")
+system_message = SystemMessage(content="You are a helpful AI assistant which takes user inputs in english and outputs the result after translating it in spanish.")
 chat_history.append(system_message) #added system message to chat history
 
 #Chat Loop
